@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Card</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <label for="chn">ბარათის მფლობელის სახელი</label>
+        <input id="chn" type="text" placeholder="სახელი გვარი" />
+        <label for="cn">ბარათის ნომერი</label>
+        <input id="cn" type="text" placeholder="1234 5678 9123 0000" />
+        <div class="strings">
+          <label for="mm yy">Exp. Date (MM/YY)</label>
+          <label id="pad" for="cvc">CVC</label>
+        </div>
+        <div class="box">
+          <input id="mm" type="text" placeholder="MM" />
+          <input id="yy" type="text" placeholder="YY" />
+          <input id="cvc" type="text" placeholder="123" />
+        </div>
+        <input type="submit" name="Confirm" id="button" value="გაგრძელება" />
+      </form>
+    </div>
+
+    <img class="face" src="./images/Group 6 Copy.png" alt="" />
+    <img class="back" src="./images/Group 13.png" alt="" />
+  </body>
+</html>
