@@ -152,6 +152,7 @@ body {
     bottom: 73%;
     border-radius: 10px;
     box-shadow: 10px 10px 25px rgb(50 48 48);
+    z-index: 1;
   }
 
   .face {
@@ -161,6 +162,7 @@ body {
     top: 18%;
     border-radius: 10px;
     box-shadow: 10px 10px 25px rgb(50 48 48);
+    z-index: 2;
   }
 
   .form {
